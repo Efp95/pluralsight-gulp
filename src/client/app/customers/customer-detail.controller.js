@@ -1,9 +1,11 @@
+
 (function() {
     'use strict';
 
     angular
         .module('app.customers')
         .controller('CustomerDetail', CustomerDetail);
+        
 
     CustomerDetail.$inject = ['$stateParams', '$window', 'dataservice', 'logger'];
     /* @ngInject */
